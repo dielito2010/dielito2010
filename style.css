@@ -1,3 +1,10 @@
+body {
+	align-items: center;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
 object {
 	border: 0;
 	width: 100%;
