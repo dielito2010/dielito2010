@@ -16,6 +16,7 @@ class Atuacao extends Desenvolvedor {
   desenvolvimento = ["FullStack", "Backend", "Frontend", "Mobile"];
 }
 ```
+<img src="./assets/img/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right">
 
 <details>
   
@@ -38,6 +39,7 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 </details>
 
 ## Tecnologias:
+
 
 ## Estatísticas do GitHub:
 
