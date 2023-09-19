@@ -144,10 +144,10 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 
 ### Está no radar para iniciar:
 
-<img style="margin: 10px" src="assets/azure.svg" alt="Azure" title="Azure" height="50" />
-<img style="margin: 10px" src="assets/selenium.png" alt="Selenium" title="Selenium" height="50" />
-<img style="margin: 10px" src="assets/graphql.svg" alt="GraphQL" title="GraphQL" height="50" />
-<img style="margin: 10px" src="assets/jenkins.png" alt="Jenkins" title="Jenkins" height="50" />
+<img style="margin: 10px" src="./assets/img/azure.svg" alt="Azure" title="Azure" height="50" />
+<img style="margin: 10px" src="./assets/img/selenium.png" alt="Selenium" title="Selenium" height="50" />
+<img style="margin: 10px" src="./assets/img/graphql.svg" alt="GraphQL" title="GraphQL" height="50" />
+<img style="margin: 10px" src="./assets/img/jenkins.png" alt="Jenkins" title="Jenkins" height="50" />
 
 </td>
 </tr>
