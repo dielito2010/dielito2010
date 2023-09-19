@@ -31,7 +31,7 @@ Em 2012, com minha bagagem de conhecimento em informática, fui convidado para s
 
 Em 2015, fui convidado para trabalhar em uma representante local de um sistema de PDV nacional voltado para bares e restaurantes. O sistema era baseado em desktop, desenvolvido em C#. Eu não tive acesso ao código-fonte, pois minha função era principalmente implantação e inserção inicial de dados no sistema. Foi nesse momento que decidi aprender SQL para facilitar o processo, já que os dados dos produtos eram os mesmos. Criei um script padrão e, com isso, reduzimos significativamente o tempo de implantação. Embora tenha sido uma breve experiência, foi importante, pois me introduziu no mundo dos sistemas.
 
-Eu estava tão envolvido com essa área que decidi me tornar o representante local oficial do sistema MarketUP. Em 2017, decidi transferir minha carteira de clientes para um parceiro quando fui inserido em uma fábrica de maquininhas de cartão. Inicialmente, comecei a trabalhar na produção, mas logo fui transferido para o setor de sistemas. O produto principal era um sistema ERP, desenvolvido em Delphi, com um banco de dados Oracle e gerenciamento de código-fonte no Git. Comecei minha jornada nesse ambiente como suporte técnico, ajudando a resolver problemas dos usuários. Com o passar do tempo, fui convidado a desempenhar um papel mais proativo e me tornei analista, focando nos módulos de estoque, produção, engenharia e qualidade. A empresa passou por mudanças significativas em 2018, tornando-se parte de um grupo maior, e em 2019 iniciamos os trabalhos para a implantação do sistema SAP B1. Continuar a trabalhar nessa área foi uma experiência enriquecedora para mim, e minha jornada nesse ambiente durou até 2020.
+Eu estava tão envolvido com essa área que decidi me tornar o representante local oficial do sistema MarketUP. Em 2017, decidi transferir minha carteira de clientes para um parceiro quando fui inserido em uma fábrica de maquininhas de cartão. Inicialmente, comecei a trabalhar na produção, mas logo fui transferido para o time de sistemas. O produto principal era um sistema ERP, desenvolvido em Delphi, com um banco de dados Oracle e gerenciamento de código-fonte no Git. Comecei minha jornada nesse ambiente como suporte técnico, ajudando a resolver problemas dos usuários. Com o passar do tempo, fui convidado a desempenhar um papel mais proativo e me tornei analista, focando nos módulos de estoque, produção, engenharia e qualidade. A empresa passou por mudanças significativas em 2018, tornando-se parte de um grupo maior, e em 2019 iniciamos os trabalhos para a implantação do sistema SAP B1. Continuar a trabalhar nessa área foi uma experiência enriquecedora para mim, e minha jornada nesse ambiente durou até 2020.
 
 A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiência que adquiri para me dedicar exclusivamente ao desenvolvimento de código-fonte. Até o presente momento, minha trajetória tem se concentrado principalmente no desenvolvimento web e mobile. Mais a baixo, você pode verificar as tecnologias com as quais estou familiarizado.
 
@@ -48,18 +48,14 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 
 ### Frontend:
 
-<img style="margin: 10px" src="assets/html5.svg" alt="HTML5" title="HTML5" height="50" />
-<img style="margin: 10px" src="assets/css3.svg" alt="CSS3" title="CSS3" height="50" />
-<img style="margin: 10px" src="assets/javascript.svg" alt="JavaScript" title="JavaScript" height="50" />
-<img style="margin: 10px" src="assets/typescript.svg" alt="TypeScript" title="TypeScript" height="50" />
-<img style="margin: 10px" src="assets/nodejs.svg" alt="Node.js" title="Node.js" height="50" />
-<img style="margin: 10px" src="assets/reactjs.svg" alt="React" title="React" height="50" />
-<img style="margin: 10px" src="assets/angular.svg" alt="Angular" title="Angular" height="50" />
-<img style="margin: 10px" src="assets/reactivex.svg" alt="ReactiveX" title="ReactiveX" height="50" />
-<img style="margin: 10px" src="assets/webpack.svg" alt="Webpack" title="Webpack" height="50" />
-<img style="margin: 10px" src="assets/sass.svg" alt="Sass" title="Sass" height="50" />
-<img style="margin: 10px" src="assets/bem.svg" alt="BEM" title="BEM" height="50" />
-<img style="margin: 10px" src="assets/jquery.svg" alt="jQuery" title="jQuery" height="50" />
+<img style="margin: 10px" src="./assets/img/html5.svg" alt="HTML5" title="HTML5" height="50" />
+<img style="margin: 10px" src="./assets/img/css3.svg" alt="CSS3" title="CSS3" height="50" />
+<img style="margin: 10px" src="./assets/img/javascript.svg" alt="JavaScript" title="JavaScript" height="50" />
+<img style="margin: 10px" src="./assets/img/typescript.svg" alt="TypeScript" title="TypeScript" height="50" />
+<img style="margin: 10px" src="./assets/img/reactjs.svg" alt="React" title="React" height="50" />
+<img style="margin: 10px" src="./assets/img/bootstrap.svg" alt="Bootstrap" title="Bootstrap" height="50" />
+<img style="margin: 10px" src="./assets/img/tailwind.svg" alt="Tailwind" title="Tailwind" height="50" />
+<img style="margin: 10px" src="./assets/img/jquery.svg" alt="jQuery" title="jQuery" height="50" />
 
 </td>
 <td align="center" valign="top">
