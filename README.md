@@ -74,15 +74,14 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 
 ### Backend:
 
-<img style="margin: 10px" src="assets/nodejs.svg" alt="Node.js" title="Node.js" height="50" />
-<img style="margin: 10px" src="assets/javascript.svg" alt="JavaScript" title="JavaScript" height="50" />
-<img style="margin: 10px" src="assets/typescript.svg" alt="TypeScript" title="TypeScript" height="50" />
-<img style="margin: 10px" src="assets/nestjs.svg" alt="NestJS" title="NestJS" height="50" />
-<img style="margin: 10px" src="assets/prisma.svg" alt="Prisma" title="Prisma" height="50" />
-<img style="margin: 10px" src="assets/express.svg" alt="Express.js" title="Express.js" height="50" />
-<img style="margin: 10px" src="assets/dotnet.png" alt="dotnet" title="dotnet" height="50" />
-<img style="margin: 10px" src="assets/django.png" alt="django" title="django" height="50" />
-<img style="margin: 10px" src="assets/flask.png" alt="flask" title="flask" height="50" />
+<img style="margin: 10px" src="./assets/img/nodejs.svg" alt="Node.js" title="Node.js" height="50" />
+<img style="margin: 10px" src="./assets/img/javascript.svg" alt="JavaScript" title="JavaScript" height="50" />
+<img style="margin: 10px" src="./assets/img/typescript.svg" alt="TypeScript" title="TypeScript" height="50" />
+<img style="margin: 10px" src="./assets/img/prisma.svg" alt="Prisma" title="Prisma" height="50" />
+<img style="margin: 10px" src="./assets/img/express.svg" alt="Express.js" title="Express.js" height="50" />
+<img style="margin: 10px" src="./assets/img/dotnet.png" alt="dotnet" title="dotnet" height="50" />
+<img style="margin: 10px" src="./assets/img/django.png" alt="django" title="django" height="50" />
+<img style="margin: 10px" src="./assets/img/flask.png" alt="flask" title="flask" height="50" />
 
 </td>
 <td align="center" valign="top">
