@@ -107,17 +107,15 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 </td>
 <td align="center" valign="top">
 
-### Cloud & DevOps:
+### Computação em nuvem:
 
-<img style="margin: 10px" src="assets/aws.svg" alt="AWS" title="AWS" height="50" />
-<img style="margin: 10px" src="assets/git.svg" alt="Git" title="Git" height="50" />
-<img style="margin: 10px" src="assets/docker.svg" alt="Docker" title="Docker" height="50" />
-<img style="margin: 10px" src="assets/linux.svg" alt="Linux" title="Linux" height="50" />
-<img style="margin: 10px" src="assets/aws-cloudfront.svg" alt="AWS CloudFront" title="AWS CloudFront" height="50" />
-<img style="margin: 10px" src="assets/aws-s3.svg" alt="AWS S3" title="AWS S3" height="50" />
-<img style="margin: 10px" src="assets/aws-ec2.svg" alt="AWS EC2" title="AWS EC2" height="50" />
-<img style="margin: 10px" src="assets/aws-lambda.svg" alt="AWS Lambda" title="AWS Lambda" height="50" />
-<img style="margin: 10px" src="assets/aws-rds.svg" alt="AWS RDS" title="AWS RDS" height="50" />
+<img style="margin: 10px" src="./assets/img/github.png" alt="GitHub" title="GitHub" height="50" />
+<img style="margin: 10px" src="./assets/img/git.svg" alt="Git" title="Git" height="50" />
+<img style="margin: 10px" src="./assets/img/docker.svg" alt="Docker" title="Docker" height="50" />
+<img style="margin: 10px" src="./assets/img/windows.png" alt="Windows" title="Windows" height="50" />
+<img style="margin: 10px" src="./assets/img/linux.svg" alt="Linux" title="Linux" height="50" />
+<img style="margin: 10px" src="./assets/img/render.svg" alt="Render" title="Render" height="50" />
+<img style="margin: 10px" src="./assets/img/vercel.png" alt="Vercel" title="Vercel" height="50" />
 
 </td>
 </tr>
