@@ -9,7 +9,7 @@ import Desenvolvedor from "dielito2010";
 
 class SobreMim extends Desenvolvedor {
   nome = "Daniel Ribeiro";
-  area = "Software Engineer";
+  area = "P&D - Software";
   trabalho = "DAR Empreendimentos";
   local = "Manaus";
 }
