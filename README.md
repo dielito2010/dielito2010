@@ -62,9 +62,9 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 
 ### Mobile:
 
-<img style="margin: 10px" src="assets/unity.svg" alt="Unity" title="Unity" height="50" /> 
-<img style="margin: 10px" src="assets/csharp.svg" alt="C#" title="C#" height="50" />
-<img style="margin: 10px" src="assets/photoshop.svg" alt="Photoshop" title="Photoshop" height="50" />
+<img style="margin: 10px" src="./assets/img/android.svg" alt="Android" title="Android" height="50" />
+<img style="margin: 10px" src="./assets/img/kotlin.svg" alt="Kotlin" title="Kotlin" height="50" />
+<img style="margin: 10px" src="./assets/img/java.svg" alt="Java" title="Java" height="50" />
 
 </td>
 </tr>
@@ -80,13 +80,9 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 <img style="margin: 10px" src="assets/nestjs.svg" alt="NestJS" title="NestJS" height="50" />
 <img style="margin: 10px" src="assets/prisma.svg" alt="Prisma" title="Prisma" height="50" />
 <img style="margin: 10px" src="assets/express.svg" alt="Express.js" title="Express.js" height="50" />
-<img style="margin: 10px" src="assets/reactivex.svg" alt="ReactiveX" title="ReactiveX" height="50" />
-<img style="margin: 10px" src="assets/serverless.svg" alt="Serverless" title="Serverless" height="50" />
-<img style="margin: 10px" src="assets/spring.svg" alt="Spring" title="Spring" height="50" />
-<img style="margin: 10px" src="assets/java.svg" alt="Java" title="Java" height="50" />
-<img style="margin: 10px" src="assets/kotlin.svg" alt="Kotlin" title="Kotlin" height="50" />
-<img style="margin: 10px" src="assets/php.svg" alt="PHP" title="PHP" height="50" />
-<img style="margin: 10px" src="assets/xampp.svg" alt="XAMPP" title="XAMPP" height="50" />
+<img style="margin: 10px" src="assets/dotnet.png" alt="dotnet" title="dotnet" height="50" />
+<img style="margin: 10px" src="assets/django.png" alt="django" title="django" height="50" />
+<img style="margin: 10px" src="assets/flask.png" alt="flask" title="flask" height="50" />
 
 </td>
 <td align="center" valign="top">
