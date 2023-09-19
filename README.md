@@ -76,6 +76,7 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 <img style="margin: 10px" src="./assets/img/nodejs.svg" alt="Node.js" title="Node.js" height="50" />
 <img style="margin: 10px" src="./assets/img/javascript.png" alt="JavaScript" title="JavaScript" height="50" />
 <img style="margin: 10px" src="./assets/img/typescript.svg" alt="TypeScript" title="TypeScript" height="50" />
+<img style="margin: 10px" src="./assets/img/csharp.svg" alt="C#" title="C#" height="50" />
 <img style="margin: 10px" src="./assets/img/dotnet.png" alt="dotnet" title="dotnet" height="50" />
 <img style="margin: 10px" src="./assets/img/django.png" alt="django" title="django" height="50" />
 <img style="margin: 10px" src="./assets/img/flask.png" alt="flask" title="flask" height="50" />
