@@ -84,7 +84,7 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 </td>
 <td align="center" valign="top">
 
-### Database:
+### Banco de Dados:
 
 <img style="margin: 10px" src="./assets/img/sqlServer.png" alt="SqlServer" title="SqlServer" height="50" />
 <img style="margin: 10px" src="./assets/img/mysql.svg" alt="MySQL" title="MySQL" height="50" />
@@ -135,17 +135,18 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 </td>
 <td align="center" valign="top">
 
-### Iniciate em:
+### Iniciante em:
 
-<img style="margin: 10px" src="assets/lua.svg" alt="Lua" title="Lua" height="50" />
-<img style="margin: 10px" src="assets/php.svg" alt="PHP" title="PHP" height="50" />
-<img style="margin: 10px" src="assets/xampp.svg" alt="XAMPP" title="XAMPP" height="50" />
+<img style="margin: 10px" src="./assets/img/aws.svg" alt="Aws" title="Aws" height="50" />
+<img style="margin: 10px" src="./assets/img/react-native.png" alt="React Native" title="React Native" height="50" />
+<img style="margin: 10px" src="./assets/img/angular.svg" alt="Angular" title="Angular" height="50" />
 
 ### Está no radar para iniciar:
 
-<img style="margin: 10px" src="assets/solidity.svg" alt="Solidity" title="Solidity" height="50" />
-<img style="margin: 10px" src="assets/rust.svg" alt="Rust" title="Rust" height="50" />
+<img style="margin: 10px" src="assets/azure.svg" alt="Azure" title="Azure" height="50" />
+<img style="margin: 10px" src="assets/selenium.png" alt="Selenium" title="Selenium" height="50" />
 <img style="margin: 10px" src="assets/graphql.svg" alt="GraphQL" title="GraphQL" height="50" />
+<img style="margin: 10px" src="assets/jenkins.png" alt="Jenkins" title="Jenkins" height="50" />
 
 </td>
 </tr>
