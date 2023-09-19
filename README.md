@@ -1,25 +1,27 @@
 ## Olá! 👋🏻 Aqui é Daniel Ribeiro e seja bem vindo ao meu GitHub 😊
 
-<div>
-  <a href="https://github.com/dielito2010" target="_blank">
-    <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-  </a>
-  <a href="https://linkedin.com/in/daniel-antunes-ribeiro" target="_blank">
-    <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-  </a>
-  <a href="https://danielribeiro.dev.br" target="_blank">
-    <img src=https://img.shields.io/badge/site:-danielribeiro.dev.br-yellow?&style=for-the-badge&alt=site style="margin-bottom: 5px;" />
-  </a>
-</div>
+## Sobre mim:
 
-<!-- BIO:START -->
+```js
+import Desenvolvedor from "dielito2010";
 
-## Sobre mim!
+class SobreMim extends Desenvolvedor {
+  nome = "Daniel Ribeiro";
+  area = "Software Engineer";
+  trabalho = "DAR Empreendimentos";
+  local = "Manaus";
+}
+
+class Atuacao extends Desenvolvedor {
+  desenvolvimento = ["FullStack", "Backend", "Frontend", "Mobile"];
+}
+```
 
 <details>
-<summary><small>PT-BR</small></summary>
+  
+<summary><small>Carreira:</small></summary>
 
-👨🏻‍🏫 Atualmente, busco atuar como Dev, mas minha jornada até aqui é interessante, vamos em ordem cronológica. Meu primeiro contato com um computador ocorreu aos 12 anos, por volta de 2000. Mesmo sem ter feito nenhum curso formal, rapidamente me familiarizei com a usabilidade. Percebi meu talento quando as pessoas começaram a me procurar para ajudá-las com tarefas relacionadas a computadores. Nessa época, eu "brincava" com sistemas como MS-DOS, Windows 95 e Windows 98.
+👨🏻‍🏫 Atualmente, busco atuar como Dev, mas minha jornada até aqui é interessante, vamos em ordem cronológica. Meu primeiro contato com um computador ocorreu aos 12 anos, por volta de 2000. Mesmo sem ter feito nenhum curso formal, rapidamente me familiarizei com a usabilidade. Percebi meu talento quando as pessoas começaram a me procurar para ajudá-las com tarefas relacionadas a computadores. Nessa época, eu "brincava" com MS-DOS, Windows 95 e Windows 98.
 
 Minha carreira em tecnologia da informação começou em 2008 como técnico de manutenção de hardware. Posteriormente, trabalhei como designer gráfico, principalmente usando o CorelDRAW e o Photoshop ferramentas que estavam em seu auge, hoje em dia as ferramentas evoluíram, eu uso o Figma e, ocasionalmente, Canva.
 
@@ -35,14 +37,27 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 
 </details>
 
-## Tecnologias
+## Tecnologias:
+
+## Estatísticas do GitHub:
 
 <div align="center">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/?username=dielito2010&theme=dracula&?theme=dark&show_icons=true%count_private=true&include_all_commits=true" alt="My stats" />
-</div>
-<div align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=dielito2010&theme=dracula" alt="My contributions" />
-</div>
-<div align="center">
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/?username=dielito2010&theme=dracula&?theme=dark&show_icons=true%count_private=true&include_all_commits=true" alt="My stats" /><br>
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=dielito2010&theme=dracula" alt="My contributions" /><br>
     <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=dielito2010&show_icons=true&langs_count=10&layout=compact&theme=dracula&count_private=true&hide=shaderlab,rpc,glsl,hlsl,cmake,asp" alt="My most used languages" />
+</div>
+
+<div>
+  <a href="https://github.com/dielito2010" target="_blank">
+    <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+  </a>
+  <a href="https://linkedin.com/in/daniel-antunes-ribeiro" target="_blank">
+    <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+  </a>
+  <a href="mailto:d.a.ribeiro2@gmail.com" target="_blank">
+    <img src=https://img.shields.io/badge/-Gmail-FF0000?style=for-the-badge&logo=gmail&logoColor=white alt=email style="margin-bottom: 5px;" />
+  </a>
+  <a href="https://danielribeiro.dev.br" target="_blank">
+    <img src=https://img.shields.io/badge/site:-danielribeiro.dev.br-yellow?&style=for-the-badge&alt=site style="margin-bottom: 5px;" />
+  </a>
 </div>
