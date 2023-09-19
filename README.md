@@ -55,7 +55,6 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 <img style="margin: 10px" src="./assets/img/reactjs.svg" alt="React" title="React" height="50" />
 <img style="margin: 10px" src="./assets/img/bootstrap.svg" alt="Bootstrap" title="Bootstrap" height="50" />
 <img style="margin: 10px" src="./assets/img/tailwind.svg" alt="Tailwind" title="Tailwind" height="50" />
-<img style="margin: 10px" src="./assets/img/jquery.svg" alt="jQuery" title="jQuery" height="50" />
 
 </td>
 <td align="center" valign="top">
@@ -80,6 +79,7 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 <img style="margin: 10px" src="./assets/img/dotnet.png" alt="dotnet" title="dotnet" height="50" />
 <img style="margin: 10px" src="./assets/img/django.png" alt="django" title="django" height="50" />
 <img style="margin: 10px" src="./assets/img/flask.png" alt="flask" title="flask" height="50" />
+<img style="margin: 10px" src="./assets/img/python.svg" alt="Python" title="Python" height="50" />
 
 </td>
 <td align="center" valign="top">
@@ -102,7 +102,7 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 
 <img style="margin: 10px" src="./assets/img/trello.png" alt="Trello" title="Trello" height="50" />
 <img style="margin: 10px" src="./assets/img/clickup.png" alt="ClickUp" title="ClickUp" height="50" />
-<img style="margin: 10px" src="./assets/img/jest.svg" alt="Jest" title="Jest" height="50" />
+<img style="margin: 10px" src="./assets/img/Jest.svg" alt="Jest" title="Jest" height="50" />
 
 </td>
 <td align="center" valign="top">
@@ -124,18 +124,13 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 
 <td align="center" valign="top">
 
-### Tools & IDEs:
+### Tools e IDEs:
 
-<img style="margin: 10px" src="assets/miro.svg" alt="Miro" title="Miro" height="50" />
-<img style="margin: 10px" src="assets/github-desktop.svg" alt="GitHub Desktop" title="GitHub Desktop" height="50" />
-<img style="margin: 10px" src="assets/jetbrains-webstorm.svg" alt="WebStorm" title="WebStorm" height="50" />
-<img style="margin: 10px" src="assets/visual-studio-code.svg" alt="Visual Studio Code" title="Visual Studio Code" height="50" />
-<img style="margin: 10px" src="assets/jetbrains-rider.svg" alt="Rider" title="Rider" height="50" />
-<img style="margin: 10px" src="assets/android-studio.svg" alt="Android Studio" title="Android Studio" height="50" />
-<img style="margin: 10px" src="assets/jetbrains-pycharm.svg" alt="PyCharm" title="PyCharm" height="50" />
-<img style="margin: 10px" src="assets/jetbrains-intellij-idea.svg" alt="IntelliJ IDEA" title="IntelliJ IDEA" height="50" />
-<img style="margin: 10px" src="assets/jetbrains-phpstorm.svg" alt="PHPStorm" title="PHPStorm" height="50" />
-<img style="margin: 10px" src="assets/visual-studio.svg" alt="Visual Studio" title="Visual Studio" height="50" />
+<img style="margin: 10px" src="./assets/img/miro.svg" alt="Miro" title="Miro" height="50" />
+<img style="margin: 10px" src="./assets/img/github-desktop.svg" alt="GitHub Desktop" title="GitHub Desktop" height="50" />
+<img style="margin: 10px" src="./assets/img/visual-studio-code.svg" alt="Visual Studio Code" title="Visual Studio Code" height="50" />
+<img style="margin: 10px" src="./assets/img/android-studio.svg" alt="Android Studio" title="Android Studio" height="50" />
+<img style="margin: 10px" src="./assets/img/visual-studio.svg" alt="Visual Studio" title="Visual Studio" height="50" />
 
 </td>
 <td align="center" valign="top">
