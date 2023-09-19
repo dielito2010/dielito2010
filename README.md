@@ -2,6 +2,8 @@
 
 ## Sobre mim:
 
+<img src="./assets/img/computer-illustration.png" min-width="400px" max-width="300px" width="300px" align="right">
+
 ```js
 import Desenvolvedor from "dielito2010";
 
@@ -16,7 +18,6 @@ class Atuacao extends Desenvolvedor {
   desenvolvimento = ["FullStack", "Backend", "Frontend", "Mobile"];
 }
 ```
-<img src="./assets/img/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right">
 
 <details>
   
