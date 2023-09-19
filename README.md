@@ -75,10 +75,8 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 ### Backend:
 
 <img style="margin: 10px" src="./assets/img/nodejs.svg" alt="Node.js" title="Node.js" height="50" />
-<img style="margin: 10px" src="./assets/img/javascript.svg" alt="JavaScript" title="JavaScript" height="50" />
+<img style="margin: 10px" src="./assets/img/javascript.png" alt="JavaScript" title="JavaScript" height="50" />
 <img style="margin: 10px" src="./assets/img/typescript.svg" alt="TypeScript" title="TypeScript" height="50" />
-<img style="margin: 10px" src="./assets/img/prisma.svg" alt="Prisma" title="Prisma" height="50" />
-<img style="margin: 10px" src="./assets/img/express.svg" alt="Express.js" title="Express.js" height="50" />
 <img style="margin: 10px" src="./assets/img/dotnet.png" alt="dotnet" title="dotnet" height="50" />
 <img style="margin: 10px" src="./assets/img/django.png" alt="django" title="django" height="50" />
 <img style="margin: 10px" src="./assets/img/flask.png" alt="flask" title="flask" height="50" />
@@ -88,11 +86,11 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 
 ### Database:
 
-<img style="margin: 10px" src="assets/mariadb.svg" alt="Maria DB" title="Maria DB" height="50" />
-<img style="margin: 10px" src="assets/mysql.svg" alt="MySQL" title="MySQL" height="50" />
-<img style="margin: 10px" src="assets/mongodb.svg" alt="MongoDB" title="MongoDB" height="50" />
-<img style="margin: 10px" src="assets/firebase.svg" alt="Firebase" title="Firebase" height="50" />
-<img style="margin: 10px" src="assets/aws-dynamodb.svg" alt="DynamoDB" title="DynamoDB" height="50" />
+<img style="margin: 10px" src="./assets/img/sqlServer.png" alt="SqlServer" title="SqlServer" height="50" />
+<img style="margin: 10px" src="./assets/img/mysql.svg" alt="MySQL" title="MySQL" height="50" />
+<img style="margin: 10px" src="./assets/img/mongodb.svg" alt="MongoDB" title="MongoDB" height="50" />
+<img style="margin: 10px" src="./assets/img/firebase.svg" alt="Firebase" title="Firebase" height="50" />
+<img style="margin: 10px" src="./assets/img/oracle.svg" alt="Oracle" title="Oracle" height="50" />
 
 </td>
 </tr>
