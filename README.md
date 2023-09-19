@@ -50,7 +50,7 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 
 <img style="margin: 10px" src="./assets/img/html5.svg" alt="HTML5" title="HTML5" height="50" />
 <img style="margin: 10px" src="./assets/img/css3.svg" alt="CSS3" title="CSS3" height="50" />
-<img style="margin: 10px" src="./assets/img/javascript.svg" alt="JavaScript" title="JavaScript" height="50" />
+<img style="margin: 10px" src="./assets/img/javascript.png" alt="JavaScript" title="JavaScript" height="50" />
 <img style="margin: 10px" src="./assets/img/typescript.svg" alt="TypeScript" title="TypeScript" height="50" />
 <img style="margin: 10px" src="./assets/img/reactjs.svg" alt="React" title="React" height="50" />
 <img style="margin: 10px" src="./assets/img/bootstrap.svg" alt="Bootstrap" title="Bootstrap" height="50" />
@@ -62,7 +62,7 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 
 ### Mobile:
 
-<img style="margin: 10px" src="./assets/img/android.svg" alt="Android" title="Android" height="50" />
+<img style="margin: 10px" src="./assets/img/aosp.svg" alt="Aosp" title="Aosp" height="50" />
 <img style="margin: 10px" src="./assets/img/kotlin.svg" alt="Kotlin" title="Kotlin" height="50" />
 <img style="margin: 10px" src="./assets/img/java.svg" alt="Java" title="Java" height="50" />
 
@@ -90,7 +90,7 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 <img style="margin: 10px" src="./assets/img/mysql.svg" alt="MySQL" title="MySQL" height="50" />
 <img style="margin: 10px" src="./assets/img/mongodb.svg" alt="MongoDB" title="MongoDB" height="50" />
 <img style="margin: 10px" src="./assets/img/firebase.svg" alt="Firebase" title="Firebase" height="50" />
-<img style="margin: 10px" src="./assets/img/oracle.svg" alt="Oracle" title="Oracle" height="50" />
+<img style="margin: 10px" src="./assets/img/oracle.png" alt="Oracle" title="Oracle" height="50" />
 
 </td>
 </tr>
@@ -98,12 +98,11 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 <tr>
 <td align="center" valign="top">
 
-### Testes:
+### Metodologias e testes:
 
-<img style="margin: 10px" src="assets/android.svg" alt="Android" title="Android" height="50" />
-<img style="margin: 10px" src="assets/kotlin.svg" alt="Kotlin" title="Kotlin" height="50" />
-<img style="margin: 10px" src="assets/java.svg" alt="Java" title="Java" height="50" />
-<img style="margin: 10px" src="assets/reactivex.svg" alt="ReactiveX" title="ReactiveX" height="50" />
+<img style="margin: 10px" src="./assets/img/trello.png" alt="Trello" title="Trello" height="50" />
+<img style="margin: 10px" src="./assets/img/clickup.png" alt="ClickUp" title="ClickUp" height="50" />
+<img style="margin: 10px" src="./assets/img/jest.svg" alt="Jest" title="Jest" height="50" />
 
 </td>
 <td align="center" valign="top">
