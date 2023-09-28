@@ -59,6 +59,10 @@
         padding: 2rem;
     }
 
+    .home .content{
+        padding-top: 2rem;
+    }
+
 }
 
 @media (max-width: 450px){
@@ -69,7 +73,9 @@
     section, header{
         padding: 1rem;
     }
-
+    header .logo img{
+        max-width: 300px;
+    }
 
 
 }

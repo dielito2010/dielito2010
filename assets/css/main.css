@@ -36,7 +36,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     border: none;
     outline: none;
     -webkit-transition: all 0.2s linear;
@@ -199,7 +199,7 @@ header.sticky{
 }
 
 header .logo img{
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 header .logo h2{
@@ -348,7 +348,7 @@ header #menu-btn:hover{
 
 .about .image{
     width: 32rem;
-    text-align: center;
+    transform: scaleX(-1);
 }
 
 .about .image img{
