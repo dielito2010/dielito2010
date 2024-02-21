@@ -963,6 +963,7 @@
     </script>
 
     <!-- Contact-Form Script -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         document.getElementById('contact-form').addEventListener('submit', function(event) {
             event.preventDefault();
@@ -972,17 +973,23 @@
             var comment = document.getElementById('comment').value;
 
             Email.send({
-            Host: "smtp.smtp2go.com",
-            Username: process.env.SMTP_USERNAME,
-            Password: process.env.SMTP_PASSWORD,
-            To: 'd.a.ribeiro2@gmail.com',
-            From: email,
-            Subject: 'Enviado pelo site, ' + subject,
-            Body: comment,
-            }).then(
-            alert("Mensagem enviada com sucesso!")
-            );
-        });
+                Host: 'smtp.elasticemail.com',
+                Username: 'd.a.ribeiro2@gmail.com',
+                Password: process.env.SMTP_PASSWORD,
+                To: 'contato@danielribeiro.dev.br',
+                From: 'd.a.ribeiro2@gmail.com',
+                Subject: 'Enviado pelo site: ' + subject,
+                Body: 'Nome: ' + name + '<br>Email: ' + email + '<br>Assunto: ' + subject + '<br>Mensagem: ' + comment
+            }).then(function(message) {
+                alert(message);
+                if (message === 'OK') {
+                    document.getElementById('name').value = '';
+                    document.getElementById('email').value = '';
+                    document.getElementById('subject').value = '';
+                    document.getElementById('comment').value = '';
+                }
+            });
+        });    
 
         //jQuery('#contactUs-Form').on('submit',function(e){
         //  jQuery('#msg').html('');
