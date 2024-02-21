@@ -890,7 +890,7 @@
                 </div>
             </div>
     
-            <form method="post" class="contact-form" id="contactUs-Form">
+            <form method="post" class="contact-form" id="contact-form">
                     
                 <input type="text" name="name" class="box" id="name" placeholder="nome" required />
                 <input type="email" name="email" class="box" id="email" placeholder="email" required />
@@ -964,23 +964,43 @@
 
     <!-- Contact-Form Script -->
     <script>
-        jQuery('#contactUs-Form').on('submit',function(e){
-          jQuery('#msg').html('');
-          jQuery('#submit').html('Please wait');
-          jQuery('#submit').attr('disabled',true);
-          jQuery.ajax({
-              url:'assets/php/submit.php',
-              type:'post',
-              data:jQuery('#contactUs-Form').serialize(),
-              success:function(result){
-                  jQuery('#msg').html(result);
-                  jQuery('#submit').html('Submit');
-                  jQuery('#submit').attr('disabled',false);
-                  jQuery('#contactUs-Form')[0].reset();
-              }
-          });
-          e.preventDefault();
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var subject = document.getElementById('subject').value;
+            var comment = document.getElementById('comment').value;
+
+            Email.send({
+            Host: "smtp.smtp2go.com",
+            Username: process.env.SMTP_USERNAME,
+            Password: process.env.SMTP_PASSWORD,
+            To: 'd.a.ribeiro2@gmail.com',
+            From: email,
+            Subject: 'Enviado pelo site, ' + subject,
+            Body: comment,
+            }).then(
+            alert("Mensagem enviada com sucesso!")
+            );
         });
+
+        //jQuery('#contactUs-Form').on('submit',function(e){
+        //  jQuery('#msg').html('');
+        //  jQuery('#submit').html('Please wait');
+        //  jQuery('#submit').attr('disabled',true);
+        //  jQuery.ajax({
+        //      url:'assets/php/submit.php',
+        //      type:'post',
+        //      data:jQuery('#contactUs-Form').serialize(),
+        //      success:function(result){
+        //          jQuery('#msg').html(result);
+        //          jQuery('#submit').html('Submit');
+        //          jQuery('#submit').attr('disabled',false);
+        //          jQuery('#contactUs-Form')[0].reset();
+        //      }
+        //  });
+        //  e.preventDefault();
+        //});
     </script>
 
 </body>
