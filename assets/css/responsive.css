@@ -76,7 +76,10 @@
     header .logo img{
         max-width: 300px;
     }
-
+    .responsive-img {
+        max-width: 90%;
+        margin: auto;
+    }
 
 }
 
