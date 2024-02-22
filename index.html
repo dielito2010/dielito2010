@@ -975,7 +975,7 @@
             Email.send({
                 Host: 'smtp.elasticemail.com',
                 Username: 'd.a.ribeiro2@gmail.com',
-                Password: process.env.SMTP_PASSWORD,
+                Password: 'B3B911A13E9BE0FCE266FA73C7C729E20DCE',
                 To: 'contato@danielribeiro.dev.br',
                 From: 'd.a.ribeiro2@gmail.com',
                 Subject: 'Enviado pelo site: ' + subject,
@@ -987,6 +987,8 @@
                     document.getElementById('email').value = '';
                     document.getElementById('subject').value = '';
                     document.getElementById('comment').value = '';
+                } else {
+                    alert('Falha ao enviar...')
                 }
             });
         });    
