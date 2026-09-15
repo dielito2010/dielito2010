@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Currículo - Daniel Antunes Ribeiro</title>
+<style>
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    html, body {
+        background: #ccc;
+    }
+
+    .page {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 10mm auto;
+        background: #fff;
+        box-shadow: 0 0 12px rgba(0,0,0,0.25);
+        overflow: hidden;
+    }
+
+    /* ============ PRINT CONTROLS (screen only) ============ */
+    .print-bar {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 100;
+        display: flex;
+        gap: 10px;
+    }
+
+    .print-bar button {
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 10px 16px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        background: #4F3981;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .print-bar button:hover {
+        background: #3c2c63;
+    }
+
+    .print-bar button.secondary {
+        background: #333;
+    }
+
+    .print-bar button.secondary:hover {
+        background: #111;
+    }
+
+    @media print {
+        .print-bar { display: none !important; }
+        html, body { background: #fff; }
+        .page {
+            margin: 0;
+            box-shadow: none;
+            page-break-after: always;
+        }
+        .page:last-child {
+            page-break-after: auto;
+        }
+    }
+
+    /* ============ PAGE 1 - MODERN ============ */
+    #modern {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+    #modern .sidebar {
+        width: 34%;
+        background: linear-gradient(160deg, #4F3981 0%, #2c1f4d 100%);
+        padding: 34px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    #modern .sidebar img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid rgba(255,255,255,0.6);
+        display: block;
+        margin: 0 auto 6px;
+    }
+
+    #modern .sidebar h1 {
+        font-size: 17pt;
+        text-align: center;
+        line-height: 1.3;
+    }
+
+    #modern .sidebar .role {
+        text-align: center;
+        font-size: 9.5pt;
+        color: #d9cdf5;
+        margin-top: 4px;
+    }
+
+    #modern .sidebar h3 {
+        font-size: 10.5pt;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 1px solid rgba(255,255,255,0.35);
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    #modern .sidebar .contact-item {
+        font-size: 9pt;
+        margin-bottom: 8px;
+        word-break: break-word;
+        color: #ece6fb;
+    }
+
+    #modern .sidebar .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    #modern .sidebar .tag {
+        font-size: 8pt;
+        background: rgba(255,255,255,0.15);
+        border: 1px solid rgba(255,255,255,0.3);
+        border-radius: 20px;
+        padding: 4px 10px;
+        color: #fff;
+    }
+
+    #modern .main {
+        width: 66%;
+        background: #fff;
+        color: #2b2b2b;
+        padding: 34px 30px;
+    }
+
+    #modern .main h2 {
+        font-size: 15pt;
+        color: #4F3981;
+        border-bottom: 2px solid #4F3981;
+        padding-bottom: 4px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        letter-spacing: 0.3px;
+    }
+
+    #modern .main h2:first-child {
+        margin-top: 0;
+    }
+
+    #modern .main .objective {
+        font-size: 11.5pt;
+        text-align: justify;
+        color: #444;
+    }
+
+    #modern .main ul.experience {
+        list-style: none;
+        font-size: 11.5pt;
+    }
+
+    #modern .main ul.experience li {
+        margin-bottom: 10px;
+        padding-left: 15px;
+        position: relative;
+        text-align: justify;
+    }
+
+    #modern .main ul.experience li::before {
+        content: "▸";
+        position: absolute;
+        left: 0;
+        color: #4F3981;
+        font-weight: bold;
+    }
+
+    #modern .main .job-title {
+        color: #4F3981;
+    }
+
+    #modern .main .job-date {
+        font-weight: normal;
+        color: #888;
+        font-size: 10.5pt;
+    }
+
+    #modern .main .formacao {
+        font-size: 11.5pt;
+    }
+
+    /* ============ PAGE 2 - TRADICIONAL ============ */
+    #traditional {
+        font-family: Georgia, 'Times New Roman', serif;
+        color: #000;
+        padding: 20mm 20mm;
+    }
+
+    #traditional h1 {
+        font-size: 26pt;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+
+    #traditional .contact {
+        text-align: center;
+        font-size: 11.5pt;
+        margin-top: 8px;
+        margin-bottom: 20px;
+        color: #000;
+    }
+
+    #traditional h2 {
+        font-size: 14.5pt;
+        border-bottom: 1pt solid #000;
+        padding-bottom: 3px;
+        margin-top: 18px;
+        margin-bottom: 9px;
+    }
+
+    #traditional .objective {
+        font-size: 12.5pt;
+        text-align: justify;
+    }
+
+    #traditional ul.experience {
+        list-style: none;
+        font-size: 12.5pt;
+    }
+
+    #traditional ul.experience li {
+        margin-bottom: 8px;
+        padding-left: 14px;
+        position: relative;
+        text-align: justify;
+    }
+
+    #traditional ul.experience li::before {
+        content: "-";
+        position: absolute;
+        left: 0;
+    }
+
+    #traditional .formacao, #traditional .idiomas, #traditional .cursos {
+        font-size: 12.5pt;
+    }
+
+    #traditional .cursos {
+        text-align: justify;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+    <div class="print-bar no-print">
+        <button onclick="window.print()">Salvar modelo moderno ou tradicional</button>
+    </div>
+
+    <!-- ======================= PÁGINA 1 - MODERNA ======================= -->
+    <div class="page" id="modern">
+        <div class="sidebar">
+            <div>
+                <img src="assets/img/Home/me2.jpeg" alt="Daniel Antunes Ribeiro" />
+                <h1>Daniel Antunes<br>Ribeiro</h1>
+                <div class="role">Especialista em Desenvolvimento de Software</div>
+            </div>
+
+            <div>
+                <h3>Contato</h3>
+                <div class="contact-item">☎ (whatsapp) 31 99207-0053</div>
+                <div class="contact-item">✉ contato@danielribeiro.dev.br</div>
+                <div class="contact-item">📍 Belo Horizonte - MG</div>
+                <div class="contact-item">🔗 danielribeiro.dev.br</div>
+                <div class="contact-item">🔗 linkedin.com/in/daniel-antunes-ribeiro</div>
+                <div class="contact-item">🔗 github.com/dielito2010</div>
+            </div>
+
+            <div>
+                <h3>Stack</h3>
+                <div class="tag-list">
+                    <span class="tag">PHP</span>
+                    <span class="tag">Laravel</span>
+                    <span class="tag">Node/TS</span>
+                    <span class="tag">Vue.js</span>
+                    <span class="tag">React</span>
+                    <span class="tag">Kotlin</span>
+                    <span class="tag">Flutter</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">GCP</span>
+                </div>
+            </div>
+
+            <div>
+                <h3>Idiomas</h3>
+                <div class="contact-item">Inglês — intermediário (leitura), básico (escrita/fala)</div>
+            </div>
+        </div>
+
+        <div class="main">
+            <h2>Objetivo</h2>
+            <p class="objective">
+                Busco parcerias, colaboração ou contrato CLT ou PJ para continuar trilhando
+                minha carreira em projetos de desenvolvimento de sistemas.
+            </p>
+
+            <h2>Experiência Profissional</h2>
+            <ul class="experience">
+                <li>
+                    <strong class="job-title">Especialista e Desenvolvimento | iComanda</strong>
+                    <span class="job-date">(2020 – atual)</span><br>
+                    Iniciei como desenvolvedor Android. Atualmente atuo como especialista,
+                    responsável técnico direto por todo o ecossistema do produto: aplicação
+                    on-premise em PHP, diversas APIs em Laravel e Node/TypeScript, frontends
+                    web em Vue.js e React, apps móveis nativos em Kotlin e multiplataforma em
+                    Flutter, com infraestrutura containerizada em Docker rodando sobre GCP.
+                </li>
+                <li>
+                    <strong class="job-title">Desenvolvedor | D.A.R Empreendimentos</strong>
+                    <span class="job-date">(2020 – atual)</span><br>
+                    MEI criada para desenvolvimento de soluções de software para a iniciativa privada.
+                </li>
+                <li>
+                    <strong class="job-title">Analista de Negócios | TecToy</strong>
+                    <span class="job-date">(2017 – 2020)</span><br>
+                    Desenvolvimento de ERP nativo e suporte na implantação do sistema SAP.
+                </li>
+                <li>
+                    <strong class="job-title">Consultor | MarketUp</strong>
+                    <span class="job-date">(2016 – 2017)</span><br>
+                    Consultoria oficial em plataforma ERP Web, com foco em gestão para micro e pequenas empresas.
+                </li>
+            </ul>
+
+            <h2>Formação</h2>
+            <p class="formacao">
+                Graduação em tecnologia de <strong>Análise e desenvolvimento de sistemas</strong>, 2016 - 2020.
+            </p>
+
+            <h2>Cursos de extensão profissional</h2>
+            <p class="formacao">
+                Desenvolvimento WEB (Ufam) || Programação (IFSP) || Desenvolvimento WEB (UEA) ||
+                SQLServer (Fund. Bradesco) || Jornada Full Stack (Ocean) || DevOps Git/GitHub/Docker (Ocean) ||
+                Moto Academy Android/AOSP (Eldorado) || Jornada web/mobile NWL (RocketSeat) ||
+                Ocean Tech School (USP) || Imersão ExponencIA - IA (2026)
+            </p>
+        </div>
+    </div>
+
+    <!-- ======================= PÁGINA 2 - TRADICIONAL ======================= -->
+    <div class="page" id="traditional">
+        <h1>Daniel Antunes Ribeiro</h1>
+        <div class="contact">
+            (whatsapp) 31 99207-0053 || contato@danielribeiro.dev.br || Belo Horizonte - MG<br>
+            linkedin.com/in/daniel-antunes-ribeiro || github.com/dielito2010 || danielribeiro.dev.br
+        </div>
+
+        <p class="objective">
+            Busco parcerias, colaboração ou contrato CLT ou PJ para continuar trilhando
+            minha carreira em projetos de desenvolvimento de sistemas.
+        </p>
+
+        <h2>Experiência Profissional</h2>
+        <ul class="experience">
+            <li>
+                <strong>Especialista e Desenvolvimento | iComanda</strong> (2020 – atual)
+                Iniciei como desenvolvedor Android. Atualmente atuo como especialista,
+                responsável técnico direto por todo o ecossistema do produto: aplicação
+                on-premise em PHP, diversas APIs em Laravel e Node/TypeScript, frontends
+                web em Vue.js e React, apps móveis nativos em Kotlin e multiplataforma em
+                Flutter, com infraestrutura containerizada em Docker rodando sobre GCP.
+            </li>
+            <li>
+                <strong>Desenvolvedor | D.A.R Empreendimentos</strong> (2020 – atual)
+                MEI criada para desenvolvimento de soluções de software para a iniciativa privada.
+            </li>
+            <li>
+                <strong>Analista de Negócios | TecToy</strong> (2017 – 2020)
+                Desenvolvimento de ERP nativo e suporte na implantação do sistema SAP.
+            </li>
+            <li>
+                <strong>Consultor | MarketUp</strong> (2016 – 2017)
+                Consultoria oficial em plataforma ERP Web, com foco em gestão para micro e pequenas empresas.
+            </li>
+        </ul>
+
+        <h2>Formação</h2>
+        <p class="formacao">
+            Graduação em tecnologia de <strong>Análise e desenvolvimento de sistemas</strong>, 2016 - 2020.
+        </p>
+
+        <h2>Cursos de extensão profissional</h2>
+        <p class="cursos">
+            Desenvolvimento WEB (Ufam) || Programação (IFSP) || Desenvolvimento WEB (UEA) ||
+            SQLServer (Fund. Bradesco) || Jornada Full Stack (Ocean) || DevOps Git/GitHub/Docker (Ocean) ||
+            Moto Academy Android/AOSP (Eldorado) || Jornada web/mobile NWL (RocketSeat) ||
+            Ocean Tech School (USP) || Imersão ExponencIA - IA (2026)
+        </p>
+
+        <h2>Idiomas</h2>
+        <p class="idiomas">Inglês, intermediário de leitura e básico de escrita e fala.</p>
+    </div>
+
+    <script>
+        window.addEventListener('load', function () {
+            setTimeout(function () { window.print(); }, 400);
+        });
+    </script>
+
+</body>
+</html>

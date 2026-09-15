@@ -918,11 +918,18 @@ header #menu-btn:hover{
     overflow: hidden;
 }
 
+.blog-slider .swiper-slide{
+    height: auto;
+    align-self: stretch;
+}
+
 .blog-item{
     background-color: #222;
     border: 0.1rem solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .blog-item .image{
@@ -943,6 +950,9 @@ header #menu-btn:hover{
 
 .blog-item .content{
     padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .blog-item .content .intro{
@@ -983,7 +993,8 @@ header #menu-btn:hover{
 }
 
 .blog-item .btn{
-    margin-top: 1rem;
+    margin-top: auto;
+    align-self: flex-start;
 }
 
 /*--------------------- 10- Blog Area CSS (End) ---------------------*/
