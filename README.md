@@ -11,7 +11,7 @@ class SobreMim extends Desenvolvedor {
   nome = "Daniel Ribeiro";
   area = "P&D - Software";
   trabalho = "DAR Empreendimentos";
-  local = "Manaus";
+  local = "Belo Horizonte - MG";
 }
 
 class Atuacao extends Desenvolvedor {
@@ -162,9 +162,8 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 ## Estatísticas do GitHub:
 
 <div align="center">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/?username=dielito2010&theme=dracula&?theme=dark&show_icons=true%count_private=true&include_all_commits=true" alt="My stats" /><br>
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=dielito2010&theme=dracula" alt="My contributions" /><br>
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=dielito2010&show_icons=true&langs_count=10&layout=compact&theme=dracula&count_private=true&hide=shaderlab,rpc,glsl,hlsl,cmake,asp" alt="My most used languages" />
+    <img src="assets/img/github-metrics.svg" alt="My GitHub metrics" /><br>
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=dielito2010&theme=dracula" alt="My contributions" />
 </div>
 <br>
 <br>
