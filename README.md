@@ -33,7 +33,7 @@ Em 2015, recebi um convite para fazer parte de uma representante local de um sis
 
 Em 2017, decidi transferir minha carteira de clientes para um parceiro quando fui inserido em uma fábrica de maquininhas de cartão. Inicialmente, comecei a trabalhar na produção, mas logo fui transferido para o time de sistemas. O produto principal era um sistema ERP, desenvolvido em Delphi, com um banco de dados Oracle e gerenciamento de código-fonte no Git. Comecei minha jornada nesse ambiente como suporte técnico, ajudando a resolver problemas dos usuários. Com o passar do tempo, fui convidado a desempenhar um papel mais proativo e me tornei analista, focando nos módulos de estoque, produção, engenharia e qualidade. A empresa passou por mudanças significativas em 2018, tornando-se parte de um grupo maior, e em 2019 iniciamos os trabalhos para a implantação do sistema SAP B1. Continuar a trabalhar nessa área foi uma experiência enriquecedora para mim, e minha jornada nesse ambiente durou até 2020.
 
-A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiência que adquiri para me dedicar exclusivamente ao desenvolvimento de código-fonte. Até o presente momento, minha trajetória tem se concentrado principalmente no desenvolvimento web e mobile. Mais a baixo, você pode verificar as tecnologias com as quais estou familiarizado.
+A partir de 2020, tomei a decisão de criar uma MEI e utilizei toda a experiência que adquiri para me dedicar exclusivamente ao desenvolvimento de código-fonte. Até o presente momento, minha trajetória tem se concentrado principalmente no desenvolvimento web e mobile. Mais a baixo, você pode verificar as tecnologias com as quais estou familiarizado.
 
 
 
@@ -55,6 +55,7 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 <img style="margin: 10px" src="./assets/img/javascript.png" alt="JavaScript" title="JavaScript" height="50" />
 <img style="margin: 10px" src="./assets/img/typescript.svg" alt="TypeScript" title="TypeScript" height="50" />
 <img style="margin: 10px" src="./assets/img/reactjs.svg" alt="React" title="React" height="50" />
+<img style="margin: 10px" src="./assets/img/vuejs.svg" alt="Vue.js" title="Vue.js" height="50" />
 <img style="margin: 10px" src="./assets/img/bootstrap.svg" alt="Bootstrap" title="Bootstrap" height="50" />
 <img style="margin: 10px" src="./assets/img/tailwind.svg" alt="Tailwind" title="Tailwind" height="50" />
 
@@ -66,6 +67,7 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 <img style="margin: 10px" src="./assets/img/aosp.svg" alt="Aosp" title="Aosp" height="50" />
 <img style="margin: 10px" src="./assets/img/kotlin.svg" alt="Kotlin" title="Kotlin" height="50" />
 <img style="margin: 10px" src="./assets/img/java.svg" alt="Java" title="Java" height="50" />
+<img style="margin: 10px" src="./assets/img/flutter.svg" alt="Flutter" title="Flutter" height="50" />
 
 </td>
 </tr>
@@ -78,6 +80,8 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 <img style="margin: 10px" src="./assets/img/nodejs.svg" alt="Node.js" title="Node.js" height="50" />
 <img style="margin: 10px" src="./assets/img/javascript.png" alt="JavaScript" title="JavaScript" height="50" />
 <img style="margin: 10px" src="./assets/img/typescript.svg" alt="TypeScript" title="TypeScript" height="50" />
+<img style="margin: 10px" src="./assets/img/php.svg" alt="PHP" title="PHP" height="50" />
+<img style="margin: 10px" src="./assets/img/laravel.svg" alt="Laravel" title="Laravel" height="50" />
 <img style="margin: 10px" src="./assets/img/csharp.svg" alt="C#" title="C#" height="50" />
 <img style="margin: 10px" src="./assets/img/dotnet.png" alt="dotnet" title="dotnet" height="50" />
 <img style="margin: 10px" src="./assets/img/django.png" alt="django" title="django" height="50" />
@@ -115,6 +119,7 @@ A partir de 2021, tomei a decisão de criar uma MEI e utilizei toda a experiênc
 <img style="margin: 10px" src="./assets/img/github.png" alt="GitHub" title="GitHub" height="50" />
 <img style="margin: 10px" src="./assets/img/git.svg" alt="Git" title="Git" height="50" />
 <img style="margin: 10px" src="./assets/img/docker.svg" alt="Docker" title="Docker" height="50" />
+<img style="margin: 10px" src="./assets/img/googlecloud.svg" alt="Google Cloud" title="Google Cloud" height="50" />
 <img style="margin: 10px" src="./assets/img/windows.png" alt="Windows" title="Windows" height="50" />
 <img style="margin: 10px" src="./assets/img/linux.svg" alt="Linux" title="Linux" height="50" />
 <img style="margin: 10px" src="./assets/img/render.svg" alt="Render" title="Render" height="50" />
