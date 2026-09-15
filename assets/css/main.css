@@ -462,6 +462,11 @@ header #menu-btn:hover{
         flex-wrap: wrap;
 }
 
+.responsive-img{
+    max-width: 100%;
+    height: auto;
+}
+
 .skill-item{
     -webkit-box-flex: 1;
     -ms-flex: 1 1 30rem;
